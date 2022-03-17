@@ -5,7 +5,7 @@ from requests_html import HTMLSession
 from trycourier import Courier
 import os
 
-client = Courier(auth_token="pk_prod_CBMM39GE91M4J4JNTRWZ5BSSTCH9")
+client = Courier(auth_token="token")
 
 # Set the URL you want to webscrape from
 s = HTMLSession()
