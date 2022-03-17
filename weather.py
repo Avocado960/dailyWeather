@@ -18,8 +18,8 @@ temp = response.html.find('span#wob_tm', first = True).text
 clouds = response.html.find('div.VQF4g', first=True).find('span#wob_dc', first = True).text
 count = 0 
 
-names = ['Ben','Mia','Claudia','Ramin']
-mailadress = ['ben@banafsche.com','mia@banafsche.com','dr.claudia@banafsche.com','dr.ramin@banafsche.com']
+names = ['user']
+mailadress = [user@domain.com]
 
 for i in names:
   resp = client.send_message(
